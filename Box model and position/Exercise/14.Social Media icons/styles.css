@@ -1,0 +1,38 @@
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: black;  
+    font-size: 40px; 
+    border-radius: 50%;
+    padding: 15px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+i.fa-facebook:hover {
+    color: blue;
+}
+
+i.fa-twitter:hover {
+    color: lightskyblue;
+}
+
+i.fa-google-plus-g:hover {
+    color: red;
+}
+
+i.fa-linkedin:hover {
+    color: lightseagreen ;
+}
+
+i.fa-instagram:hover {
+    color: gray;
+}
+
