@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 1em 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+}
+
+header {
+    border-bottom: 3px solid black;
+    flex: 1 0 100%;
+}
+
+main {
+    flex: 0 0 70%;
+    
+}
+
+aside {
+    flex: 1 0 auto;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 0.4em;
+    border: 3px solid black;
+    margin: 0.5em;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    border-left: 2px solid black;
+    float: right;
+    margin: 1em;
+    padding: 0.5em;
+    
+}
+
+cite {
+    text-align: right;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+
+.site-title {
+    font-family: sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+img[src="images/Image1.jpg"] {
+    float:right;
+    
+}
+
+img[src="images/Image2.jpg"] {
+    float: left;
+    
+}
