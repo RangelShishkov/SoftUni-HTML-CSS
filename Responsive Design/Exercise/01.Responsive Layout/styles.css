@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+   main {
+    flex-direction: column;
+   }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    gap: 0.7em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:0.7em;
+}
+
+header {
+    background-color: lightblue;
+    padding: 1em ;
+    margin: 0.1em;
+    flex: 1 0 auto;
+    border-radius: 0.3em;
+    
+
+}
+
+section {
+    background-color: lightblue;
+    padding: 2em;
+    margin: 0 0.1em;
+    border-radius: 0.3em;
+}
+
+main section:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.3em;
+
+}
