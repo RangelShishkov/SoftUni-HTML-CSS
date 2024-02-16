@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+  
+    body {
+        font-size: 12px;
+    }
+  
+    .home-left {
+    display: none;
+  }
+.home-full-width-banner {
+    display: flex;
+    flex-direction: column;
+}
+.home-left4 {
+    padding: 2em;
+}
+
+.home-text30 {
+    width: 100%;
+}
+.home-image6{
+    width: 100%;
+}
+.home-links-container {
+    flex-direction: column;
+}
+.home-footer1{
+flex-direction: column;
+}
+.home-container09 {
+    order: 9999;
+}
+.category-card-image {
+    width: 170px;
+}
+.home-cards-container{
+    width: 94%;
+}
+}
