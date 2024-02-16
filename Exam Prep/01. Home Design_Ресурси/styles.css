@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.2 "Courgette";
+}
+
+body {
+    padding: 2em;
+    background-color: #F5F5F5;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+}
+
+article {
+    display: flex;
+    gap: 1.3em;
+    padding: 1.5em;
+}
+
+.card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex: 1 0 33%;
+    flex-direction: column;
+    border-radius: 1em;
+}
+
+.card-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0.8em;
+}
+
+header {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 1.4em;
+    
+}
+
+p.Design {
+    color: #CA131F;
+    position: relative;
+    left: 90px;   
+}
+
+h2 {
+    border-bottom: 1.5px solid #DA5E63;
+    padding: 0.3em 0;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.read-more {
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+span {
+    font-size: 12px;
+    padding: 0.2em 0.4em;
+    aspect-ratio: 1/1;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 8px;  
+}
