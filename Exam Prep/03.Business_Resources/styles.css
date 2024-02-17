@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.2 "PT-Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PT Serif";
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    max-width: 37rem;
+    color: white;
+}
+
+.site-section.banner h2 {
+    font-size: 3.25em;
+    color: white;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-section.columns {
+    background-color: white;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.site-section.sponsors {
+    background-color: white;
+    text-align: center;
+}
+
+.site-section.sponsors p {
+    margin: 1em 0;
+}
+
+.site-section.sponsors h2 {
+    color: #C3916A;
+}
+
+.site-section.partners {
+    background-color: white;
+    text-align: center;
+}
+
+.site-section.partners p {
+    margin-top: 1em;
+}
+
+.site-section.partners h2 {
+    color: #C3916A;
+}
+
+
+
+.site-section.columns p {
+    padding-bottom: 2em;
+}
+
+
+.site-section.columns h2 {
+    font-size: 2.95em;
+    color: #38292C;
+    margin-bottom: 0.4em;
+}
+
+.media {
+    width: 9em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+}
+
+.sponsor-img img {
+    padding: 1.5em;
+}
+
+.sponsor-img {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 0.5em;
+    color: #C3916A;
+    border: 2px solid #C3916A;
+    padding: 0.7em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header ul {
+    display: flex;
+    gap: 1em;
+}
+.logo {
+    width: 10%;
+}
+
+.site-header li {
+    text-transform: uppercase;
+    list-style: none outside;
+}
+
+.site-header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.column-container {
+    display: flex;
+    gap: 1em;
+}
+
+footer {
+    background-color: #171720;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer li {
+    color: #857C71;
+    list-style: none outside;
+    padding: 0.4em 0;
+    text-transform: uppercase;
+}
+
