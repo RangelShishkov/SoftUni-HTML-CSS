@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap);
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.2 "Ubuntu", sans-serif;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header ul{
+    display: flex;
+    list-style: none outside;
+    gap: 0.1em;
+    color: #696969;   
+}
+
+.site-header li a {
+    color: #696969;
+    background-color: #ECECEC;
+    padding: 1em;
+}
+
+.site-header a.homepage {
+    background-color: #56DBB1;
+    color: #070900;
+}
+
+.left-header {
+    display: flex;
+    gap: 1.8em;
+}
+
+.left-header h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-right: 0.7em;
+    border-right: 3px solid lightgray;
+}
+.left-header p {
+    display: flex;
+    align-items: flex-end;
+    color: gray;
+}
+
+
+
+.guide {
+    background-color: #56DBB1;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 3em;
+}
+
+.site-section.info {
+    background-color: #353434;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em 0;
+    margin: 3em 0;
+}
+
+.info-box h5 {
+   color: white;
+   font-size: 1.4em;
+
+}
+
+.info-box i {
+    background-color: #56DBB1;
+    color: white;
+    font-size: 2.8em;
+    padding: 0.3em;
+}
+
+.info-box p {
+    text-align: center;
+    color: #5B5956;
+    border-top: 1px solid wheat;
+    padding: 0.8em;
+}
+
+.subscrib {
+    text-align: center;
+}
+
+.subscrib h3 {
+    padding: 1em 0 0.1em 0;
+    font-size: 1.8em;
+    color: #353434;
+}
+
+.subscrib p {
+    padding: 0em 0 3em 0;
+    color: #5B5956;
+
+}
+
+.subscrib .button {
+    background-color: #974D1B;
+    color: white;
+    padding: 1em 2.5em;
+    margin: 2em 0;
+}
+
+.site-section.about-us {
+    background-color: #353434;
+}
+
+.about-wrapper {
+    display: flex;
+    gap: 1em;
+}
+
+.about-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.about-box h5 {
+    color: white;
+    font-size: 1.8em;
+}
+
+.about-box p {
+    color: #5B5956;
+}
+
+footer {
+    text-align: center;
+    background-color: #56DBB1;
+}
+
+footer p {
+    color: #5B5956;
+}
+
+footer span {
+    color: white;
+}
