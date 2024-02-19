@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    .site-header {
+        margin: 0px 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-header {
+        margin: 0;
+    }
+
+    .right-side li a {
+        font-size: 0.9em;
+    }
+
+    .left-side h1 {
+        font-size: 2.4em;
+    }
+    .left-side p {
+        font-size: 0.7em;
+    }
+}
